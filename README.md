@@ -1,11 +1,5 @@
 <div id="top"></div>
 
-[![Forks][forks-shield]][https://github.com/NoerNova/tai-eng-dictionary]
-[![Stargazers][stars-shield]][https://github.com/NoerNova/tai-eng-dictionary/stargazers]
-[![Issues][issues-shield]][https://github.com/NoerNova/tai-eng-dictionary/issues]
-[![MIT License][license-shield]][https://opensource.org/licenses/MIT]
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
