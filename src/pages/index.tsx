@@ -74,7 +74,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Tai-Eng Dictionary</title>
         <meta name="description" content="Tai-End easy dictionary" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
