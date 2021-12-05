@@ -75,11 +75,11 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>Tai-Eng Dictionary</title>
-        <meta name="description" content="Tai-End easy dictionary" />
+        <meta name="description" content="Tai-Eng easy dictionary" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main className="min-h-screen">
         <header className="rounded-3xl">
           <div
             className="bg-gradient-to-br from-blue-100 via-orange-200 to-yellow-600 dark:bg-gradient-to-br dark:from-gray-800 dark:via-gray-900 dark:to-gray-900"
@@ -102,9 +102,11 @@ const Home: NextPage = () => {
                 </div>
                 <div className="flex bg-white rounded-lg overflow-hidden px-1 py-1 mx-3">
                   <input
-                    className="bg-white input input-info input-bordered text-base text-black-400 flex-grow outline-none px-2 text-black "
+                    className="bg-white input input-info input-bordered text-base text-black-400 flex-grow outline-none px-2 text-black leading-3"
                     type="text"
-                    placeholder="English text"
+                    placeholder={
+                      endpoint === "eng" ? "English text" : "ၶေႃႈၵႂၢမ်းတႆး"
+                    }
                     value={searchWord}
                     onChange={handleSearchWord}
                     onKeyDown={(e) => e.key === "Enter" && handleSearch()}
@@ -113,14 +115,14 @@ const Home: NextPage = () => {
                     className="bg-blue-500 hover:bg-blue-700 text-white font-bold text-base rounded-lg px-4 py-2 font-thin"
                     onClick={handleSearch}
                   >
-                    Search
+                    {endpoint === "eng" ? "Search" : "သွၵ်ႈႁႃ"}
                   </button>
                 </div>
               </div>
             </div>
           </div>
         </header>
-        <div className="py-2">
+        <body>
           {loading && (
             <div className="border border-gray-300 shadow rounded-3xl p-4 mx-5 mt-5">
               <div className="animate-pulse flex space-x-4">
@@ -211,7 +213,7 @@ const Home: NextPage = () => {
               </div>
             )
           )}
-        </div>
+        </body>
       </main>
     </div>
   );
