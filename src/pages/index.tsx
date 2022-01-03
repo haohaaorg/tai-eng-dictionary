@@ -5,9 +5,10 @@ import Head from "next/head";
 
 import axios from "axios";
 
+const baseURL = "https://tai-eng-dictionaryapi.herokuapp.com/";
 const endpointURL =
   `https://tai-eng-dictionaryapi.herokuapp.com/api/v1/api_key=${process.env.API_KEY}` ||
-  "https://tai-eng-dictionaryapi.herokuapp.com/";
+  baseURL;
 
 type Translation = {
   Antonym: {
@@ -70,6 +71,12 @@ const Home: NextPage = () => {
         setNotFound(true);
       });
   };
+
+  React.useMemo(async () => {
+    await axios.get(`${baseURL}`).catch((err) => {
+      console.log("Api not ready, Please try again later");
+    });
+  }, []);
 
   return (
     <div>
