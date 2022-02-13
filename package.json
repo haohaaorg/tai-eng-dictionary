@@ -14,7 +14,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.16",
-    "axios": "^0.24.0",
+    "axios": "^0.26.0",
     "next": "12.0.10",
     "next-pwa": "^5.4.4",
     "next-themes": "^0.0.15",
