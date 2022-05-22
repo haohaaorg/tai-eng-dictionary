@@ -5,10 +5,9 @@ import Head from "next/head";
 
 import axios from "axios";
 
-const baseURL = "https://tai-eng-dictionaryapi.herokuapp.com/";
 const endpointURL =
-  `https://tai-eng-dictionaryapi.herokuapp.com/api/v1/api_key=${process.env.API_KEY}` ||
-  baseURL;
+  `${process.env.ENDPOINT_URL}${process.env.API_KEY}` ||
+  `${process.env.BASE_URL}`;
 
 type Translation = {
   Antonym: {
@@ -35,6 +34,8 @@ const Home: NextPage = () => {
   const [result, setResult] = React.useState<Translation[]>([]);
   const [loading, setLoading] = React.useState(false);
   const [notFound, setNotFound] = React.useState(false);
+
+  const [mounted, setMounted] = React.useState(false);
 
   const handleSearchWord = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchWord(e.target.value);
@@ -73,10 +74,13 @@ const Home: NextPage = () => {
   };
 
   React.useMemo(async () => {
-    await axios.get(`${baseURL}`).catch((err) => {
+    await axios.get(`${process.env.BASE_URL}`).catch((err) => {
       console.log("Api not ready, Please try again later");
     });
   }, []);
+
+  React.useEffect(() => setMounted(true), []);
+  if (!mounted) return null;
 
   return (
     <div>

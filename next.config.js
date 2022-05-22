@@ -5,6 +5,8 @@ module.exports = withPWA({
   reactStrictMode: true,
   env: {
     API_KEY: process.env.API_KEY || "",
+    BASE_URL: process.env.BASE_URL || "",
+    ENDPOINT_URL: process.env.ENDPOINT_URL || "",
   },
   pwa: {
     dest: "public",
