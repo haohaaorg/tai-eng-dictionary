@@ -147,8 +147,6 @@ Distributed under the [MIT](https://opensource.org/licenses/MIT) License.
 <!-- CONTACT -->
 ## Contact
 
-NorHsangPha - [@noer_nova](https://twitter.com/noer_nova) - noernova666@gmail.com
-
-Project Link: [https://github.com/NoerNova/tai-eng-dictionary](https://github.com/NoerNova/tai-eng-dictionary)
+NorHsangPha - [noernova.com](https://noernova.com) - [haohaa.com](https://haohaa.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
