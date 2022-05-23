@@ -12,9 +12,9 @@
     <br />
     <a href="https://taidictionary.noernova.com">View Demo</a>
     ·
-    <a href="https://github.com/NoerNova/tai-eng-dictionary/issues">Report Bug</a>
+    <a href="https://github.com/haohaaorg/tai-eng-dictionary/issues">Report Bug</a>
     ·
-    <a href="https://github.com/NoerNova/tai-eng-dictionary/issues">Request Feature</a>
+    <a href="https://github.com/haohaaorg/tai-eng-dictionary/issues">Request Feature</a>
   </p>
 </div>
 
@@ -34,10 +34,10 @@
 
 <br />
 I started this project on my personal purpose, I used the Tai dictionary a lot, to learn and write in Shan words, previously I use taidictionary.com but for some reason, they are out of service now so I start this project.
-I also develop an API to use in this project and open source to anyone who needs to use it on their own website or wants to develop for better Tai language dictionary so [check it out](https://github.com/NoerNova/tai-eng-dictionaryAPI).
+I also develop an API to use in this project and open source to anyone who needs to use it on their own website or wants to develop for better Tai language dictionary so [check it out](https://github.com/haohaaorg/tai-eng-dictionaryAPI).
 
 
-This is a very easy Dictionary with a small database ,thanks to [https://github.com/saitawngpha](https://github.com/saitawngpha) for dictionary database, it's may not cover all words and some of the words may not quite well be translated. if you have another big or good database its could be very please, provide your own API or with my [API project starter](https://github.com/NoerNova/tai-eng-dictionaryAPI) or direct them to me, anyway might be helpful for everyone.
+This is a very easy Dictionary with a small database ,thanks to [https://github.com/saitawngpha](https://github.com/saitawngpha) for dictionary database, it's may not cover all words and some of the words may not quite well be translated. if you have another big or good database its could be very please, provide your own API or with my [API project starter](https://github.com/haohaaorg/tai-eng-dictionaryAPI) or direct them to me, anyway might be helpful for everyone.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -54,7 +54,7 @@ This is a very easy Dictionary with a small database ,thanks to [https://github.
 
 ## API
 
-Chack [https://github.com/NoerNova/tai-eng-dictionaryAPI](https://github.com/NoerNova/tai-eng-dictionaryAPI) for API project build with golang.
+Chack [https://github.com/haohaaorg/tai-eng-dictionaryAPI](https://github.com/haohaaorg/tai-eng-dictionaryAPI) for API project build with golang.
 
 
 
@@ -71,7 +71,7 @@ Check out [Nextjs](https://nextjs.org/docs/getting-started) website first in cas
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/NoerNova/tai-eng-dictionary.git
+   git clone https://github.com/haohaaorg/tai-eng-dictionary.git
    ```
 2. Install NPM packages
    * npm 
@@ -108,7 +108,7 @@ This dictionary can translate in Tai to English and English to Shan
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/NoerNova/tai-eng-dictionary/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/haohaaorg/tai-eng-dictionary/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
